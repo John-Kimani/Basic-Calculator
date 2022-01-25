@@ -1,18 +1,13 @@
 body{
     background-color: hsl(223, 93%, 78%);
 }
-main{
-    border: 2px solid green;
-}
 .calculator{
-    outline: 2px solid red;
     border-radius: 2%;
     box-shadow: 0rem 0.5rem 0.5rem 0rem #bdf6fe;
     height: 600px;
     background: linear-gradient(#BDF6FE, hsl(200, 12%, 95%));
 }
 #result{
-    outline: 2px solid red;
     height: 5.8rem;
     margin-top: 10px;
 }
@@ -35,7 +30,6 @@ main{
 }
 #keyboard{
     margin-top: 0.5rem;
-    outline: 2px solid blue;
     height: 30rem;
     padding: 1rem 1rem;
 }
@@ -48,3 +42,11 @@ main{
 .blank{
     display: none;
 }
+.number{
+    border-radius: 50% 50% 50% 50%;
+}
+button{
+    border: 1px solid #bdf6fe;
+    background-color: #93b0fb;
+}
+
