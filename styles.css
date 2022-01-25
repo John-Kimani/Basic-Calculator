@@ -37,4 +37,14 @@ main{
     margin-top: 0.5rem;
     outline: 2px solid blue;
     height: 30rem;
+    padding: 1rem 1rem;
+}
+.button-row{
+    height: 3rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.blank{
+    display: none;
 }
